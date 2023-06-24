@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200&display=swap');
 *{
     font-family: 'Ysabeau SC', sans-serif;
-}
 
+}
+html{
+  overflow-x: hidden;
+}
+body{
+  overflow-x: hidden;
+}
 .bannerBgImage{
     height: 100vh;
     background: url("../Images/laptop.jpeg");
@@ -50,20 +56,13 @@
   .navbar{
     width: 100vw;
   }
-  .navbar>.container-fluid{
-    margin-left: 0;
-  }
 /* Dark Mode */
 
 body {
     background-color: #1a1a1a;
     color: #fff;
-  }
-  
-  .navbar {
-    background-color: #333;
-  }
-  
+
+  }  
   .navbar-brand,
   .navbar-nav .nav-link {
     color: #fff;
