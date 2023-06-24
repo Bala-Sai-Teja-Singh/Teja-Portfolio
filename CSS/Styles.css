@@ -114,13 +114,12 @@ body {
   }
  
   .btn {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1rem 2.5rem;
     border: none;
     outline: none;
     border-radius: 0.4rem;
     cursor: pointer;
-    text-transform: uppercase;
     background-color: rgb(14, 14, 26);
     color: rgb(234, 234, 234);
     font-weight: 700;
@@ -137,4 +136,7 @@ body {
     background: rgb(2,29,78);
     background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
     color: rgb(4, 4, 38);
+  }
+  .cards .card:hover {
+    transform: scale(1.1, 1.1);
   }
